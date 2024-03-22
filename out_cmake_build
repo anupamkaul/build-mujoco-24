@@ -1,0 +1,591 @@
+(base) anupkaul@147dda4c0851 build_mujoco % cmake --build .
+[  0%] Building CXX object CMakeFiles/lodepng.dir/_deps/lodepng-src/lodepng.cpp.o
+[  0%] Linking CXX static library lib/liblodepng.a
+[  0%] Built target lodepng
+[  0%] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.o
+[  0%] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o
+[  1%] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.o
+[  1%] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o
+[  1%] Building C object _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o
+[  1%] Linking C static library ../../../lib/libccd.a
+[  1%] Built target ccd
+[  3%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/global_r.c.o
+[  3%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/stat_r.c.o
+[  3%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/geom2_r.c.o
+[  3%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/poly2_r.c.o
+[  3%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/merge_r.c.o
+[  3%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/libqhull_r.c.o
+[  3%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/geom_r.c.o
+[  4%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/poly_r.c.o
+[  4%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/qset_r.c.o
+[  4%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/mem_r.c.o
+[  4%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/random_r.c.o
+[  4%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/usermem_r.c.o
+[  4%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/userprintf_r.c.o
+[  4%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/io_r.c.o
+[  6%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/user_r.c.o
+[  6%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/accessors_r.c.o
+[  6%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/rboxlib_r.c.o
+[  6%] Building C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/userprintf_rbox_r.c.o
+[  6%] Linking C static library ../../lib/libqhullstatic_r.a
+[  6%] Built target qhullstatic_r
+[  6%] Building CXX object _deps/tinyxml2-build/CMakeFiles/tinyxml2.dir/tinyxml2.cpp.o
+[  6%] Linking CXX static library ../../lib/libtinyxml2.a
+[  6%] Built target tinyxml2
+[  6%] Building CXX object _deps/tinyobjloader-build/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.o
+[  6%] Linking CXX static library ../../lib/libtinyobjloader.a
+[  6%] Built target tinyobjloader
+[  7%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_callback.c.o
+[  7%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_box.c.o
+[  7%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_convex.c.o
+[  7%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_driver.c.o
+[  7%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_primitive.c.o
+[  7%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_collision_sdf.c.o
+[  9%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_core_constraint.c.o
+[  9%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_core_smooth.c.o
+[  9%] Building CXX object CMakeFiles/mujoco.dir/src/engine/engine_crossplatform.cc.o
+[  9%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_derivative.c.o
+[  9%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_derivative_fd.c.o
+[  9%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_forward.c.o
+[  9%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_inverse.c.o
+[ 11%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_island.c.o
+[ 11%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_io.c.o
+[ 11%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_passive.c.o
+[ 11%] Building CXX object CMakeFiles/mujoco.dir/src/engine/engine_plugin.cc.o
+[ 11%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_print.c.o
+[ 11%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_ray.c.o
+[ 11%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_resource.c.o
+[ 12%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_sensor.c.o
+[ 12%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_setconst.c.o
+[ 12%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_solver.c.o
+[ 12%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_support.c.o
+[ 12%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_blas.c.o
+[ 12%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_errmem.c.o
+[ 12%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_misc.c.o
+[ 14%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_solve.c.o
+[ 14%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_sparse.c.o
+[ 14%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_util_spatial.c.o
+[ 14%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vfs.c.o
+[ 14%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vis_init.c.o
+[ 14%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vis_interact.c.o
+[ 14%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vis_state.c.o
+[ 15%] Building C object CMakeFiles/mujoco.dir/src/engine/engine_vis_visualize.c.o
+[ 15%] Building CXX object CMakeFiles/mujoco.dir/src/user/user_api.cc.o
+[ 15%] Building CXX object CMakeFiles/mujoco.dir/src/user/user_cache.cc.o
+[ 15%] Building CXX object CMakeFiles/mujoco.dir/src/user/user_composite.cc.o
+[ 15%] Building CXX object CMakeFiles/mujoco.dir/src/user/user_flexcomp.cc.o
+[ 15%] Building CXX object CMakeFiles/mujoco.dir/src/user/user_init.cc.o
+[ 15%] Building CXX object CMakeFiles/mujoco.dir/src/user/user_mesh.cc.o
+[ 17%] Building CXX object CMakeFiles/mujoco.dir/src/user/user_model.cc.o
+[ 17%] Building CXX object CMakeFiles/mujoco.dir/src/user/user_objects.cc.o
+[ 17%] Building CXX object CMakeFiles/mujoco.dir/src/user/user_util.cc.o
+[ 17%] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_api.cc.o
+[ 17%] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_base.cc.o
+[ 17%] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml.cc.o
+[ 17%] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_native_reader.cc.o
+[ 19%] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_numeric_format.cc.o
+[ 19%] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_native_writer.cc.o
+[ 19%] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_urdf.cc.o
+[ 19%] Building CXX object CMakeFiles/mujoco.dir/src/xml/xml_util.cc.o
+[ 19%] Building C object CMakeFiles/mujoco.dir/src/render/glad/glad.c.o
+[ 19%] Building CXX object CMakeFiles/mujoco.dir/src/render/glad/loader.cc.o
+[ 19%] Building C object CMakeFiles/mujoco.dir/src/render/render_context.c.o
+[ 20%] Building C object CMakeFiles/mujoco.dir/src/render/render_gl2.c.o
+[ 20%] Building C object CMakeFiles/mujoco.dir/src/render/render_gl3.c.o
+[ 20%] Building C object CMakeFiles/mujoco.dir/src/render/render_util.c.o
+[ 20%] Building CXX object CMakeFiles/mujoco.dir/src/thread/thread_pool.cc.o
+[ 20%] Building CXX object CMakeFiles/mujoco.dir/src/thread/thread_task.cc.o
+[ 20%] Building C object CMakeFiles/mujoco.dir/src/ui/ui_main.c.o
+[ 20%] Linking CXX shared library lib/libmujoco.dylib
+[ 20%] Built target mujoco
+[ 20%] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/cable.cc.o
+[ 22%] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/elasticity.cc.o
+[ 22%] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/membrane.cc.o
+[ 22%] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/register.cc.o
+[ 22%] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/shell.cc.o
+[ 22%] Building CXX object plugin/elasticity/CMakeFiles/elasticity.dir/solid.cc.o
+[ 22%] Linking CXX shared library ../../lib/libelasticity.dylib
+[ 22%] Built target elasticity
+[ 22%] Building CXX object plugin/actuator/CMakeFiles/actuator.dir/pid.cc.o
+[ 22%] Building CXX object plugin/actuator/CMakeFiles/actuator.dir/register.cc.o
+[ 22%] Linking CXX shared library ../../lib/libactuator.dylib
+[ 22%] Built target actuator
+[ 23%] Building CXX object plugin/sensor/CMakeFiles/sensor.dir/sensor.cc.o
+[ 23%] Building CXX object plugin/sensor/CMakeFiles/sensor.dir/touch_grid.cc.o
+[ 23%] Linking CXX shared library ../../lib/libsensor.dylib
+[ 23%] Built target sensor
+[ 23%] Building CXX object _deps/spdlog_lib-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.o
+[ 23%] Building CXX object _deps/spdlog_lib-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
+[ 25%] Building CXX object _deps/spdlog_lib-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
+[ 25%] Building CXX object _deps/spdlog_lib-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
+[ 25%] Building CXX object _deps/spdlog_lib-build/CMakeFiles/spdlog.dir/src/async.cpp.o
+[ 25%] Building CXX object _deps/spdlog_lib-build/CMakeFiles/spdlog.dir/src/cfg.cpp.o
+[ 25%] Building CXX object _deps/spdlog_lib-build/CMakeFiles/spdlog.dir/src/fmt.cpp.o
+[ 25%] Linking CXX static library ../../lib/libspdlog.a
+[ 25%] Built target spdlog
+[ 25%] Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/ExactOctreeSdf.cpp.o
+[ 25%] Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdf.cpp.o
+[ 25%] Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfComputeShader.cpp.o
+[ 25%] Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/OctreeSdfUniform.cpp.o
+[ 25%] Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/RealSdf.cpp.o
+[ 25%] Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/SdfFunction.cpp.o
+[ 26%] Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdf.cpp.o
+[ 26%] Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/sdf/UniformGridSdfOctree.cpp.o
+[ 26%] Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/GJK.cpp.o
+/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/sdflib-src/src/utils/GJK.cpp:295:12: warning: enumeration value 'POINT' not handled in switch [-Wswitch]
+    switch(simplex.type)
+           ^~~~~~~~~~~~
+/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/sdflib-src/src/utils/GJK.cpp:361:14: note: in instantiation of function template specialization 'sdflib::GJK::getOriginDirection<sdflib::GJK::Simplex>' requested here
+    } while(!getOriginDirection(simplex, direction, dotLastEnterPoint) && ++iter < 100);
+             ^
+/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/sdflib-src/src/utils/GJK.cpp:295:12: note: add missing switch cases
+    switch(simplex.type)
+           ^
+/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/sdflib-src/src/utils/GJK.cpp:295:12: warning: enumeration value 'POINT' not handled in switch [-Wswitch]
+    switch(simplex.type)
+           ^~~~~~~~~~~~
+/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/sdflib-src/src/utils/GJK.cpp:464:14: note: in instantiation of function template specialization 'sdflib::GJK::getOriginDirection<sdflib::GJK::TrackedSimplex>' requested here
+    } while(!getOriginDirection(simplex, direction, 0.0f) && ++iter < 100);
+             ^
+/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/sdflib-src/src/utils/GJK.cpp:295:12: note: add missing switch cases
+    switch(simplex.type)
+           ^
+2 warnings generated.
+[ 26%] Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Mesh.cpp.o
+[ 26%] Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/PrimitivesFactory.cpp.o
+[ 26%] Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/Timer.cpp.o
+[ 26%] Building CXX object _deps/sdflib-build/CMakeFiles/SdfLib.dir/src/utils/TriangleUtils.cpp.o
+[ 28%] Linking CXX static library ../../lib/libSdfLib.a
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../lib/libSdfLib.a(OctreeSdfComputeShader.cpp.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../lib/libSdfLib.a(OctreeSdfComputeShader.cpp.o) has no symbols
+[ 28%] Built target SdfLib
+[ 28%] Building CXX object plugin/sdf/CMakeFiles/sdf.dir/sdf.cc.o
+[ 28%] Building CXX object plugin/sdf/CMakeFiles/sdf.dir/bolt.cc.o
+[ 28%] Building CXX object plugin/sdf/CMakeFiles/sdf.dir/bowl.cc.o
+[ 30%] Building CXX object plugin/sdf/CMakeFiles/sdf.dir/gear.cc.o
+[ 30%] Building CXX object plugin/sdf/CMakeFiles/sdf.dir/register.cc.o
+[ 30%] Building CXX object plugin/sdf/CMakeFiles/sdf.dir/nut.cc.o
+[ 30%] Building CXX object plugin/sdf/CMakeFiles/sdf.dir/sdflib.cc.o
+[ 30%] Building CXX object plugin/sdf/CMakeFiles/sdf.dir/torus.cc.o
+[ 30%] Linking CXX shared library ../../lib/libsdf.dylib
+ld: warning: object file (../../lib/libspdlog.a[2](spdlog.cpp.o)) was built for newer 'macOS' version (14.3) than being linked (11.0)
+ld: warning: object file (../../lib/libspdlog.a[4](color_sinks.cpp.o)) was built for newer 'macOS' version (14.3) than being linked (11.0)
+ld: warning: object file (../../lib/libspdlog.a[6](async.cpp.o)) was built for newer 'macOS' version (14.3) than being linked (11.0)
+ld: warning: object file (../../lib/libspdlog.a[8](fmt.cpp.o)) was built for newer 'macOS' version (14.3) than being linked (11.0)
+[ 30%] Built target sdf
+[ 31%] Building CXX object simulate/CMakeFiles/platform_ui_adapter.dir/glfw_adapter.cc.o
+[ 31%] Building CXX object simulate/CMakeFiles/platform_ui_adapter.dir/glfw_dispatch.cc.o
+[ 31%] Building CXX object simulate/CMakeFiles/platform_ui_adapter.dir/platform_ui_adapter.cc.o
+[ 31%] Building OBJCXX object simulate/CMakeFiles/platform_ui_adapter.dir/glfw_corevideo.mm.o
+[ 31%] Built target platform_ui_adapter
+[ 31%] Building CXX object simulate/CMakeFiles/libsimulate.dir/simulate.cc.o
+[ 31%] Building OBJCXX object simulate/CMakeFiles/libsimulate.dir/macos_gui.mm.o
+[ 31%] Linking CXX static library ../lib/libsimulate.a
+[ 31%] Built target libsimulate
+[ 31%] Building C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/context.c.o
+[ 31%] Building C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/init.c.o
+[ 31%] Building C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/input.c.o
+[ 33%] Building C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/monitor.c.o
+[ 33%] Building C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/vulkan.c.o
+[ 33%] Building C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/window.c.o
+[ 33%] Building OBJC object _deps/glfw3-build/src/CMakeFiles/glfw.dir/cocoa_init.m.o
+[ 33%] Building OBJC object _deps/glfw3-build/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o
+[ 33%] Building OBJC object _deps/glfw3-build/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o
+[ 33%] Building OBJC object _deps/glfw3-build/src/CMakeFiles/glfw.dir/cocoa_window.m.o
+[ 34%] Building C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/cocoa_time.c.o
+[ 34%] Building C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/posix_thread.c.o
+[ 34%] Building OBJC object _deps/glfw3-build/src/CMakeFiles/glfw.dir/nsgl_context.m.o
+[ 34%] Building C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/egl_context.c.o
+[ 34%] Building C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/osmesa_context.c.o
+[ 34%] Linking C static library ../../../lib/libglfw3.a
+[ 34%] Built target glfw
+[ 34%] Building CXX object simulate/CMakeFiles/simulate.dir/main.cc.o
+[ 34%] Linking CXX executable ../bin/simulate
+[ 34%] Built target simulate
+[ 34%] Building CXX object sample/CMakeFiles/compile.dir/compile.cc.o
+[ 34%] Linking CXX executable ../bin/compile
+[ 34%] Built target compile
+[ 34%] Building CXX object sample/CMakeFiles/testspeed.dir/testspeed.cc.o
+[ 34%] Linking CXX executable ../bin/testspeed
+[ 34%] Built target testspeed
+[ 34%] Building CXX object sample/CMakeFiles/basic.dir/basic.cc.o
+[ 34%] Linking CXX executable ../bin/basic
+[ 34%] Built target basic
+[ 34%] Building CXX object sample/CMakeFiles/record.dir/record.cc.o
+[ 34%] Linking CXX executable ../bin/record
+[ 34%] Built target record
+[ 34%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 36%] Linking CXX static library ../../../lib/libgtest.a
+[ 36%] Built target gtest
+[ 36%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_log_severity.dir/log_severity.cc.o
+[ 38%] Linking CXX static library ../../../../lib/libabsl_log_severity.a
+[ 38%] Built target absl_log_severity
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o
+[ 39%] Linking CXX static library ../../../../lib/libabsl_raw_logging_internal.a
+[ 39%] Built target absl_raw_logging_internal
+[ 39%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_spinlock_wait.dir/internal/spinlock_wait.cc.o
+[ 39%] Linking CXX static library ../../../../lib/libabsl_spinlock_wait.a
+[ 39%] Built target absl_spinlock_wait
+[ 41%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/cycleclock.cc.o
+[ 41%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/spinlock.cc.o
+[ 41%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/sysinfo.cc.o
+[ 41%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/thread_identity.cc.o
+[ 41%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/unscaledcycleclock.cc.o
+[ 41%] Linking CXX static library ../../../../lib/libabsl_base.a
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_base.a(unscaledcycleclock.cc.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_base.a(unscaledcycleclock.cc.o) has no symbols
+[ 41%] Built target absl_base
+[ 41%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o
+[ 41%] Linking CXX static library ../../../../lib/libabsl_malloc_internal.a
+[ 41%] Built target absl_malloc_internal
+[ 41%] Building CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o
+[ 41%] Linking CXX static library ../../../../lib/libabsl_throw_delegate.a
+[ 41%] Built target absl_throw_delegate
+[ 41%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_fixed.cc.o
+[ 41%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_format.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_if.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_impl.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_info.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_libc.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_lookup.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_posix.cc.o
+[ 42%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/zone_info_source.cc.o
+[ 44%] Linking CXX static library ../../../../lib/libabsl_time_zone.a
+[ 44%] Built target absl_time_zone
+[ 44%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.o
+[ 46%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.o
+[ 46%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.o
+[ 46%] Linking CXX static library ../../../../lib/libabsl_debugging_internal.a
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_debugging_internal.a(elf_mem_image.cc.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_debugging_internal.a(vdso_support.cc.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_debugging_internal.a(elf_mem_image.cc.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_debugging_internal.a(vdso_support.cc.o) has no symbols
+[ 46%] Built target absl_debugging_internal
+[ 46%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o
+[ 47%] Linking CXX static library ../../../../lib/libabsl_stacktrace.a
+[ 47%] Built target absl_stacktrace
+[ 47%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/ostringstream.cc.o
+[ 49%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/utf8.cc.o
+[ 49%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/escaping.cc.o
+[ 49%] Linking CXX static library ../../../../lib/libabsl_strings_internal.a
+[ 49%] Built target absl_strings_internal
+[ 49%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o
+[ 49%] Linking CXX static library ../../../../lib/libabsl_demangle_internal.a
+[ 49%] Built target absl_demangle_internal
+[ 49%] Building CXX object _deps/abseil-cpp-build/absl/numeric/CMakeFiles/absl_int128.dir/int128.cc.o
+[ 49%] Linking CXX static library ../../../../lib/libabsl_int128.a
+[ 49%] Built target absl_int128
+[ 49%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_string_view.dir/string_view.cc.o
+[ 49%] Linking CXX static library ../../../../lib/libabsl_string_view.a
+[ 49%] Built target absl_string_view
+[ 49%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/ascii.cc.o
+[ 49%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/charconv.cc.o
+[ 50%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/escaping.cc.o
+[ 50%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_bigint.cc.o
+[ 50%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_parse.cc.o
+[ 50%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/damerau_levenshtein_distance.cc.o
+[ 50%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/memutil.cc.o
+[ 50%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/stringify_sink.cc.o
+[ 50%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/match.cc.o
+[ 52%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/numbers.cc.o
+[ 52%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_cat.cc.o
+[ 52%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_replace.cc.o
+[ 52%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_split.cc.o
+[ 52%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/substitute.cc.o
+[ 52%] Linking CXX static library ../../../../lib/libabsl_strings.a
+[ 52%] Built target absl_strings
+[ 52%] Building CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.o
+[ 52%] Linking CXX static library ../../../../lib/libabsl_symbolize.a
+[ 52%] Built target absl_symbolize
+[ 52%] Building CXX object _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o
+[ 52%] Linking CXX static library ../../../../lib/libabsl_exponential_biased.a
+[ 52%] Built target absl_exponential_biased
+[ 52%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o
+[ 52%] Linking CXX static library ../../../../lib/libabsl_graphcycles_internal.a
+[ 52%] Built target absl_graphcycles_internal
+[ 52%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_civil_time.dir/internal/cctz/src/civil_time_detail.cc.o
+[ 52%] Linking CXX static library ../../../../lib/libabsl_civil_time.a
+[ 52%] Built target absl_civil_time
+[ 52%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o
+[ 53%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/clock.cc.o
+[ 53%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/duration.cc.o
+[ 53%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/format.cc.o
+[ 53%] Building CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/time.cc.o
+[ 53%] Linking CXX static library ../../../../lib/libabsl_time.a
+[ 53%] Built target absl_time
+[ 53%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.o
+[ 53%] Linking CXX static library ../../../../lib/libabsl_kernel_timeout_internal.a
+[ 53%] Built target absl_kernel_timeout_internal
+[ 53%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.o
+[ 53%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o
+[ 55%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.o
+[ 55%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/futex_waiter.cc.o
+[ 55%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.o
+[ 55%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/pthread_waiter.cc.o
+[ 55%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/sem_waiter.cc.o
+[ 55%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/stdcpp_waiter.cc.o
+[ 55%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter_base.cc.o
+[ 57%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/win32_waiter.cc.o
+[ 57%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.o
+[ 57%] Building CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.o
+[ 57%] Linking CXX static library ../../../../lib/libabsl_synchronization.a
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_synchronization.a(futex_waiter.cc.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_synchronization.a(sem_waiter.cc.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_synchronization.a(win32_waiter.cc.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_synchronization.a(futex_waiter.cc.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_synchronization.a(sem_waiter.cc.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_synchronization.a(win32_waiter.cc.o) has no symbols
+[ 57%] Built target absl_synchronization
+[ 57%] Building CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.o
+[ 57%] Building CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.o
+[ 58%] Linking CXX static library ../../../../lib/libabsl_hashtablez_sampler.a
+[ 58%] Built target absl_hashtablez_sampler
+[ 58%] Building CXX object _deps/abseil-cpp-build/absl/types/CMakeFiles/absl_bad_variant_access.dir/bad_variant_access.cc.o
+[ 58%] Linking CXX static library ../../../../lib/libabsl_bad_variant_access.a
+[ 58%] Built target absl_bad_variant_access
+[ 58%] Building CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_city.dir/internal/city.cc.o
+[ 60%] Linking CXX static library ../../../../lib/libabsl_city.a
+[ 60%] Built target absl_city
+[ 60%] Building CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_low_level_hash.dir/internal/low_level_hash.cc.o
+[ 60%] Linking CXX static library ../../../../lib/libabsl_low_level_hash.a
+[ 60%] Built target absl_low_level_hash
+[ 60%] Building CXX object _deps/abseil-cpp-build/absl/types/CMakeFiles/absl_bad_optional_access.dir/bad_optional_access.cc.o
+[ 60%] Linking CXX static library ../../../../lib/libabsl_bad_optional_access.a
+[ 60%] Built target absl_bad_optional_access
+[ 60%] Building CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/internal/hash.cc.o
+[ 60%] Linking CXX static library ../../../../lib/libabsl_hash.a
+[ 60%] Built target absl_hash
+[ 60%] Building CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.o
+[ 60%] Linking CXX static library ../../../../lib/libabsl_raw_hash_set.a
+[ 60%] Built target absl_raw_hash_set
+[ 60%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o
+[ 60%] Linking CXX static library ../../../../lib/libabsl_crc_cpu_detect.a
+[ 60%] Built target absl_crc_cpu_detect
+[ 60%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/internal/crc.cc.o
+[ 60%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/internal/crc_x86_arm_combined.cc.o
+[ 60%] Linking CXX static library ../../../../lib/libabsl_crc_internal.a
+[ 60%] Built target absl_crc_internal
+[ 61%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/arg.cc.o
+[ 61%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/bind.cc.o
+[ 61%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/extension.cc.o
+[ 61%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/float_conversion.cc.o
+[ 61%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/output.cc.o
+[ 61%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/parser.cc.o
+[ 63%] Linking CXX static library ../../../../lib/libabsl_str_format_internal.a
+[ 63%] Built target absl_str_format_internal
+[ 63%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.o
+[ 63%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o
+[ 63%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o
+[ 63%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o
+[ 63%] Linking CXX static library ../../../../lib/libabsl_crc32c.a
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_crc32c.a(crc_memcpy_x86_arm_combined.cc.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_crc32c.a(crc_memcpy_x86_arm_combined.cc.o) has no symbols
+[ 63%] Built target absl_crc32c
+[ 63%] Building CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cord_state.dir/internal/crc_cord_state.cc.o
+[ 65%] Linking CXX static library ../../../../lib/libabsl_crc_cord_state.a
+[ 65%] Built target absl_crc_cord_state
+[ 66%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_internal.cc.o
+[ 66%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree.cc.o
+[ 66%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_navigator.cc.o
+[ 66%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_reader.cc.o
+[ 66%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_crc.cc.o
+[ 66%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_consume.cc.o
+[ 66%] Linking CXX static library ../../../../lib/libabsl_cord_internal.a
+[ 66%] Built target absl_cord_internal
+[ 68%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/internal/cordz_functions.cc.o
+[ 68%] Linking CXX static library ../../../../lib/libabsl_cordz_functions.a
+[ 68%] Built target absl_cordz_functions
+[ 68%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_handle.dir/internal/cordz_handle.cc.o
+[ 68%] Linking CXX static library ../../../../lib/libabsl_cordz_handle.a
+[ 68%] Built target absl_cordz_handle
+[ 68%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o
+[ 68%] Linking CXX static library ../../../../lib/libabsl_cordz_info.a
+[ 68%] Built target absl_cordz_info
+[ 68%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/cord.cc.o
+[ 68%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/cord_analysis.cc.o
+[ 68%] Building CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/cord_buffer.cc.o
+[ 68%] Linking CXX static library ../../../../lib/libabsl_cord.a
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_cord.a(cord_buffer.cc.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: ../../../../lib/libabsl_cord.a(cord_buffer.cc.o) has no symbols
+[ 68%] Built target absl_cord
+[ 68%] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 68%] Linking CXX static library ../../../lib/libgmock.a
+[ 68%] Built target gmock
+[ 68%] Building CXX object test/CMakeFiles/fixture.dir/fixture.cc.o
+[ 68%] Linking CXX static library ../lib/libfixture.a
+[ 68%] Built target fixture
+[ 68%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 68%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 68%] Built target gtest_main
+[ 68%] Building CXX object test/CMakeFiles/fixture_test.dir/fixture_test.cc.o
+[ 68%] Linking CXX executable ../bin/fixture_test
+[ 68%] Built target fixture_test
+[ 68%] Building CXX object test/CMakeFiles/header_test.dir/header_test.cc.o
+[ 68%] Linking CXX executable ../bin/header_test
+[ 68%] Built target header_test
+[ 68%] Building CXX object test/CMakeFiles/pipeline_test.dir/pipeline_test.cc.o
+[ 68%] Linking CXX executable ../bin/pipeline_test
+[ 68%] Built target pipeline_test
+[ 68%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark.cc.o
+[ 68%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o
+[ 68%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o
+[ 69%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
+[ 69%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o
+[ 69%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/check.cc.o
+[ 69%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/colorprint.cc.o
+[ 69%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o
+[ 69%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/complexity.cc.o
+[ 69%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/console_reporter.cc.o
+[ 71%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/counter.cc.o
+[ 71%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o
+[ 71%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/json_reporter.cc.o
+[ 71%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/perf_counters.cc.o
+[ 71%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/reporter.cc.o
+[ 71%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/statistics.cc.o
+[ 71%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/string_util.cc.o
+[ 73%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/sysinfo.cc.o
+[ 73%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/timers.cc.o
+[ 73%] Linking CXX static library ../../../lib/libbenchmark.a
+[ 73%] Built target benchmark
+[ 73%] Building CXX object _deps/benchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o
+[ 73%] Linking CXX static library ../../../lib/libbenchmark_main.a
+[ 73%] Built target benchmark_main
+[ 73%] Building CXX object test/benchmark/CMakeFiles/step_benchmark_test.dir/step_benchmark_test.cc.o
+[ 74%] Linking CXX executable ../../bin/step_benchmark_test
+[ 74%] Built target step_benchmark_test
+[ 74%] Building CXX object test/benchmark/CMakeFiles/thread_performance_test.dir/thread_performance_test.cc.o
+[ 76%] Linking CXX executable ../../bin/thread_performance_test
+[ 76%] Built target thread_performance_test
+[ 77%] Building CXX object test/benchmark/CMakeFiles/parse_benchmark_test.dir/parse_benchmark_test.cc.o
+[ 77%] Linking CXX executable ../../bin/parse_benchmark_test
+[ 77%] Built target parse_benchmark_test
+[ 77%] Building CXX object test/benchmark/CMakeFiles/engine_util_spatial_benchmark_test.dir/engine_util_spatial_benchmark_test.cc.o
+[ 77%] Linking CXX executable ../../bin/engine_util_spatial_benchmark_test
+[ 77%] Built target engine_util_spatial_benchmark_test
+[ 77%] Building CXX object test/benchmark/CMakeFiles/engine_core_smooth_benchmark_test.dir/engine_core_smooth_benchmark_test.cc.o
+[ 77%] Linking CXX executable ../../bin/engine_core_smooth_benchmark_test
+[ 77%] Built target engine_core_smooth_benchmark_test
+[ 77%] Building CXX object test/benchmark/CMakeFiles/engine_util_sparse_benchmark_test.dir/engine_util_sparse_benchmark_test.cc.o
+[ 79%] Linking CXX executable ../../bin/engine_util_sparse_benchmark_test
+[ 79%] Built target engine_util_sparse_benchmark_test
+[ 79%] Building CXX object test/engine/CMakeFiles/engine_collision_box_test.dir/engine_collision_box_test.cc.o
+[ 79%] Linking CXX executable ../../bin/engine_collision_box_test
+[ 79%] Built target engine_collision_box_test
+[ 79%] Building CXX object test/engine/CMakeFiles/engine_collision_convex_test.dir/engine_collision_convex_test.cc.o
+[ 79%] Linking CXX executable ../../bin/engine_collision_convex_test
+[ 79%] Built target engine_collision_convex_test
+[ 79%] Building CXX object test/engine/CMakeFiles/engine_collision_driver_test.dir/engine_collision_driver_test.cc.o
+[ 80%] Linking CXX executable ../../bin/engine_collision_driver_test
+[ 80%] Built target engine_collision_driver_test
+[ 80%] Building CXX object test/engine/CMakeFiles/engine_core_constraint_test.dir/engine_core_constraint_test.cc.o
+[ 80%] Linking CXX executable ../../bin/engine_core_constraint_test
+[ 80%] Built target engine_core_constraint_test
+[ 80%] Building CXX object test/engine/CMakeFiles/engine_core_smooth_test.dir/engine_core_smooth_test.cc.o
+[ 80%] Linking CXX executable ../../bin/engine_core_smooth_test
+[ 80%] Built target engine_core_smooth_test
+[ 82%] Building CXX object test/engine/CMakeFiles/engine_derivative_test.dir/engine_derivative_test.cc.o
+[ 82%] Linking CXX executable ../../bin/engine_derivative_test
+[ 82%] Built target engine_derivative_test
+[ 82%] Building CXX object test/engine/CMakeFiles/engine_forward_test.dir/engine_forward_test.cc.o
+[ 82%] Linking CXX executable ../../bin/engine_forward_test
+[ 82%] Built target engine_forward_test
+[ 82%] Building CXX object test/engine/CMakeFiles/engine_inverse_test.dir/engine_inverse_test.cc.o
+[ 82%] Linking CXX executable ../../bin/engine_inverse_test
+[ 82%] Built target engine_inverse_test
+[ 82%] Building CXX object test/engine/CMakeFiles/engine_island_test.dir/engine_island_test.cc.o
+[ 82%] Linking CXX executable ../../bin/engine_island_test
+[ 82%] Built target engine_island_test
+[ 82%] Building CXX object test/engine/CMakeFiles/engine_io_test.dir/engine_io_test.cc.o
+[ 84%] Linking CXX executable ../../bin/engine_io_test
+[ 84%] Built target engine_io_test
+[ 84%] Building CXX object test/engine/CMakeFiles/engine_plugin_test.dir/engine_plugin_test.cc.o
+[ 84%] Linking CXX executable ../../bin/engine_plugin_test
+[ 84%] Built target engine_plugin_test
+[ 84%] Building CXX object test/engine/CMakeFiles/engine_passive_test.dir/engine_passive_test.cc.o
+[ 84%] Linking CXX executable ../../bin/engine_passive_test
+[ 84%] Built target engine_passive_test
+[ 85%] Building CXX object test/engine/CMakeFiles/engine_print_test.dir/engine_print_test.cc.o
+[ 85%] Linking CXX executable ../../bin/engine_print_test
+[ 85%] Built target engine_print_test
+[ 85%] Building CXX object test/engine/CMakeFiles/engine_ray_test.dir/engine_ray_test.cc.o
+[ 85%] Linking CXX executable ../../bin/engine_ray_test
+[ 85%] Built target engine_ray_test
+[ 85%] Building CXX object test/engine/CMakeFiles/engine_resource_test.dir/engine_resource_test.cc.o
+[ 85%] Linking CXX executable ../../bin/engine_resource_test
+[ 85%] Built target engine_resource_test
+[ 85%] Building CXX object test/engine/CMakeFiles/engine_sensor_test.dir/engine_sensor_test.cc.o
+[ 87%] Linking CXX executable ../../bin/engine_sensor_test
+[ 87%] Built target engine_sensor_test
+[ 87%] Building CXX object test/engine/CMakeFiles/engine_solver_test.dir/engine_solver_test.cc.o
+[ 87%] Linking CXX executable ../../bin/engine_solver_test
+[ 87%] Built target engine_solver_test
+[ 87%] Building CXX object test/engine/CMakeFiles/engine_support_test.dir/engine_support_test.cc.o
+[ 87%] Linking CXX executable ../../bin/engine_support_test
+[ 87%] Built target engine_support_test
+[ 87%] Building CXX object test/engine/CMakeFiles/engine_thread_test.dir/engine_thread_test.cc.o
+[ 87%] Linking CXX executable ../../bin/engine_thread_test
+[ 87%] Built target engine_thread_test
+[ 88%] Building CXX object test/engine/CMakeFiles/engine_util_blas_test.dir/engine_util_blas_test.cc.o
+[ 88%] Linking CXX executable ../../bin/engine_util_blas_test
+[ 88%] Built target engine_util_blas_test
+[ 88%] Building CXX object test/engine/CMakeFiles/engine_util_errmem_test.dir/engine_util_errmem_test.cc.o
+[ 88%] Linking CXX executable ../../bin/engine_util_errmem_test
+[ 88%] Built target engine_util_errmem_test
+[ 88%] Building CXX object test/engine/CMakeFiles/engine_util_solve_test.dir/engine_util_solve_test.cc.o
+[ 88%] Linking CXX executable ../../bin/engine_util_solve_test
+[ 88%] Built target engine_util_solve_test
+[ 88%] Building CXX object test/engine/CMakeFiles/engine_util_spatial_test.dir/engine_util_spatial_test.cc.o
+[ 88%] Linking CXX executable ../../bin/engine_util_spatial_test
+[ 88%] Built target engine_util_spatial_test
+[ 88%] Building CXX object test/engine/CMakeFiles/engine_vfs_test.dir/engine_vfs_test.cc.o
+[ 88%] Linking CXX executable ../../bin/engine_vfs_test
+[ 88%] Built target engine_vfs_test
+[ 90%] Building CXX object test/engine/CMakeFiles/engine_vis_state_test.dir/engine_vis_state_test.cc.o
+[ 90%] Linking CXX executable ../../bin/engine_vis_state_test
+[ 90%] Built target engine_vis_state_test
+[ 90%] Building CXX object test/user/CMakeFiles/user_model_test.dir/user_model_test.cc.o
+[ 90%] Linking CXX executable ../../bin/user_model_test
+[ 90%] Built target user_model_test
+[ 90%] Building CXX object test/user/CMakeFiles/user_objects_test.dir/user_objects_test.cc.o
+[ 92%] Linking CXX executable ../../bin/user_objects_test
+[ 92%] Built target user_objects_test
+[ 92%] Building CXX object test/user/CMakeFiles/user_api_test.dir/user_api_test.cc.o
+[ 92%] Linking CXX executable ../../bin/user_api_test
+[ 92%] Built target user_api_test
+[ 93%] Building CXX object test/user/CMakeFiles/user_flex_test.dir/user_flex_test.cc.o
+[ 93%] Linking CXX executable ../../bin/user_flex_test
+[ 93%] Built target user_flex_test
+[ 93%] Building CXX object test/user/CMakeFiles/user_mesh_test.dir/user_mesh_test.cc.o
+[ 93%] Linking CXX executable ../../bin/user_mesh_test
+[ 93%] Built target user_mesh_test
+[ 93%] Building CXX object test/user/CMakeFiles/user_composite_test.dir/user_composite_test.cc.o
+[ 93%] Linking CXX executable ../../bin/user_composite_test
+[ 93%] Built target user_composite_test
+[ 93%] Building CXX object test/xml/CMakeFiles/xml_api_test.dir/xml_api_test.cc.o
+[ 93%] Linking CXX executable ../../bin/xml_api_test
+[ 93%] Built target xml_api_test
+[ 93%] Building CXX object test/xml/CMakeFiles/xml_native_reader_test.dir/xml_native_reader_test.cc.o
+[ 93%] Linking CXX executable ../../bin/xml_native_reader_test
+[ 93%] Built target xml_native_reader_test
+[ 93%] Building CXX object test/xml/CMakeFiles/xml_native_writer_test.dir/xml_native_writer_test.cc.o
+[ 95%] Linking CXX executable ../../bin/xml_native_writer_test
+[ 95%] Built target xml_native_writer_test
+[ 96%] Building CXX object test/plugin/elasticity/CMakeFiles/elasticity_test.dir/elasticity_test.cc.o
+[ 96%] Linking CXX executable ../../../bin/elasticity_test
+[ 96%] Built target elasticity_test
+[ 96%] Building CXX object test/plugin/actuator/CMakeFiles/pid_test.dir/pid_test.cc.o
+[ 96%] Linking CXX executable ../../../bin/pid_test
+ld: warning: ignoring duplicate libraries: '../../../lib/libabsl_strings.a'
+[ 96%] Built target pid_test
+[ 98%] Building CXX object python/mujoco/util/CMakeFiles/array_traits_test.dir/array_traits_test.cc.o
+[ 98%] Linking CXX executable ../../../bin/array_traits_test
+[ 98%] Built target array_traits_test
+[100%] Building CXX object python/mujoco/util/CMakeFiles/func_traits_test.dir/func_traits_test.cc.o
+[100%] Linking CXX executable ../../../bin/func_traits_test
+[100%] Built target func_traits_test
+[100%] Building CXX object python/mujoco/util/CMakeFiles/func_wrap_test.dir/func_wrap_test.cc.o
+[100%] Linking CXX executable ../../../bin/func_wrap_test
+[100%] Built target func_wrap_test
+[100%] Building CXX object python/mujoco/util/CMakeFiles/tuple_tools_test.dir/tuple_tools_test.cc.o
+[100%] Linking CXX executable ../../../bin/tuple_tools_test
+[100%] Built target tuple_tools_test

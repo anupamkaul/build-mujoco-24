@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/flex/lib CMakeFiles/glm_dummy.dir/detail/dummy.cpp.o CMakeFiles/glm_dummy.dir/detail/glm.cpp.o -o ../../../bin/glm_dummy 

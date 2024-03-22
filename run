@@ -1,0 +1,6 @@
+1. Clone the mujoco repository from GitHub.
+2. Create a new build directory somewhere, and cd into it.
+3. Run cmake $PATH_TO_CLONED_REPO to configure the build.
+4. Run cmake --build . to build
+
+build_mujoco % ./bin/simulate ./model/humanoid.xml

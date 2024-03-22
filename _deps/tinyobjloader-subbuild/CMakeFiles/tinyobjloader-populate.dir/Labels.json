@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/tinyobjloader-subbuild/CMakeFiles/tinyobjloader-populate"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/tinyobjloader-subbuild/CMakeFiles/tinyobjloader-populate.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/tinyobjloader-subbuild/CMakeFiles/tinyobjloader-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-build.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-download.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-install.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-patch_disconnected.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-test.rule"
+		},
+		{
+			"file" : "/Users/anupkaul/other_git/deepmind/build_mujoco/_deps/tinyobjloader-subbuild/tinyobjloader-populate-prefix/src/tinyobjloader-populate-stamp/tinyobjloader-populate-update_disconnected.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tinyobjloader-populate"
+		],
+		"name" : "tinyobjloader-populate"
+	}
+}

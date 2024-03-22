@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libabsl_log_internal_fnmatch.a CMakeFiles/absl_log_internal_fnmatch.dir/internal/fnmatch.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libabsl_log_internal_fnmatch.a
